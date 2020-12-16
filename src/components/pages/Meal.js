@@ -76,121 +76,121 @@ const Meal = ({ meal: { meal, loading }, match, getMeal }) => {
 							</p>
 							<ul className='list-group list-group-flush text-muted'>
 								{meal.strIngredient1 !== '' ||
-									(meal.strIngredient1 && (
+									(!meal.strIngredient1 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure1} ${meal.strIngredient1}`}
 										</li>
 									))}
 								{meal.strIngredient2 !== '' ||
-									(meal.strIngredient2 && (
+									(!meal.strIngredient2 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure2} ${meal.strIngredient2}`}
 										</li>
 									))}
 								{meal.strIngredient3 !== '' ||
-									(meal.strIngredient3 && (
+									(!meal.strIngredient3 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure3} ${meal.strIngredient3}`}
 										</li>
 									))}
 								{meal.strIngredient4 !== '' ||
-									(meal.strIngredient4 && (
+									(!meal.strIngredient4 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure4} ${meal.strIngredient4}`}
 										</li>
 									))}
 								{meal.strIngredient5 !== '' ||
-									(meal.strIngredient5 && (
+									(!meal.strIngredient5 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure5} ${meal.strIngredient5}`}
 										</li>
 									))}
 								{meal.strIngredient6 !== '' ||
-									(meal.strIngredient6 && (
+									(!meal.strIngredient6 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure6} ${meal.strIngredient6}`}
 										</li>
 									))}
 								{meal.strIngredient7 !== '' ||
-									(meal.strIngredient7 && (
+									(!meal.strIngredient7 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure7} ${meal.strIngredient7}`}
 										</li>
 									))}
 								{meal.strIngredient8 !== '' ||
-									(meal.strIngredient8 && (
+									(!meal.strIngredient8 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure8} ${meal.strIngredient8}`}
 										</li>
 									))}
 								{meal.strIngredient9 !== '' ||
-									(meal.strIngredient9 && (
+									(!meal.strIngredient9 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure9} ${meal.strIngredient9}`}
 										</li>
 									))}
 								{meal.strIngredient10 !== '' ||
-									(meal.strIngredient10 && (
+									(!meal.strIngredient10 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure10} ${meal.strIngredient10}`}
 										</li>
 									))}
 								{meal.strIngredient11 !== '' ||
-									(meal.strIngredient11 && (
+									(!meal.strIngredient11 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure11} ${meal.strIngredient11}`}
 										</li>
 									))}
 								{meal.strIngredient12 !== '' ||
-									(meal.strIngredient12 && (
+									(!meal.strIngredient12 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure12} ${meal.strIngredient12}`}
 										</li>
 									))}
 								{meal.strIngredient13 !== '' ||
-									(meal.strIngredient13 && (
+									(!meal.strIngredient13 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure13} ${meal.strIngredient13}`}
 										</li>
 									))}
 								{meal.strIngredient14 !== '' ||
-									(meal.strIngredient14 && (
+									(!meal.strIngredient14 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure14} ${meal.strIngredient14}`}
 										</li>
 									))}
 								{meal.strIngredient15 !== '' ||
-									(meal.strIngredient15 && (
+									(!meal.strIngredient15 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure15} ${meal.strIngredient15}`}
 										</li>
 									))}
 								{meal.strIngredient16 !== '' ||
-									(meal.strIngredient16 && (
+									(!meal.strIngredient16 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure16} ${meal.strIngredient16}`}
 										</li>
 									))}
 								{meal.strIngredient17 !== '' ||
-									(meal.strIngredient17 && (
+									(!meal.strIngredient17 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure17} ${meal.strIngredient17}`}
 										</li>
 									))}
 								{meal.strIngredient18 !== '' ||
-									(meal.strIngredient18 && (
+									(!meal.strIngredient18 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure18} ${meal.strIngredient18}`}
 										</li>
 									))}
 								{meal.strIngredient19 !== '' ||
-									(meal.strIngredient19 && (
+									(!meal.strIngredient19 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure19} ${meal.strIngredient19}`}
 										</li>
 									))}
 								{meal.strIngredient20 !== '' ||
-									(meal.strIngredient20 && (
+									(!meal.strIngredient20 && (
 										<li className='list-group-item'>
 											{`${meal.strMeasure20} ${meal.strIngredient20}`}
 										</li>
