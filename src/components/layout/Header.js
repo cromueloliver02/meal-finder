@@ -34,7 +34,7 @@ const Header = ({ setAlert, searchMeals, randomMeal, history }) => {
 									<input
 										type='text'
 										className='form-control'
-										placeholder='Find food...'
+										placeholder='Find meal...'
 										name='text'
 										value={text}
 										onChange={e => setText(e.target.value)}
