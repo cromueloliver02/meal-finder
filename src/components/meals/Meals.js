@@ -1,0 +1,31 @@
+import React from 'react';
+import MealItem from './MealItem';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+
+const Meals = ({ meals, loading }) => {
+	return (
+		<div className='card-deck' style={mealsGrid}>
+			{!loading &&
+				meals.length > 0 &&
+				meals.map(meal => <MealItem key={meal.idMeal} meal={meal} />)}
+		</div>
+	);
+};
+
+const mealsGrid = {
+	display: 'grid',
+	gridTemplateColumns: 'repeat(4, 1fr)',
+	gridRowGap: '1rem'
+};
+
+Meals.propTypes = {
+	meals: PropTypes.array,
+	loading: PropTypes.bool.isRequired
+};
+
+const mapStateToProps = state => ({
+	loading: state.meal.loading
+});
+
+export default connect(mapStateToProps)(Meals);
