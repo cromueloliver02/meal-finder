@@ -4,6 +4,15 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 const Meals = ({ meals, loading }) => {
+	if (meals === null) {
+		return (
+			<p className='text-center text-muted'>
+				You wanna learn a new recipe? Hit the random button or enter a text
+				then hit the find button.
+			</p>
+		);
+	}
+
 	return (
 		<div className='card-deck' style={mealsGrid}>
 			{!loading &&
