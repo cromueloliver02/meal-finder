@@ -7,6 +7,7 @@ import Alert from './components/layout/Alert';
 import Spinner from './components/layout/Spinner';
 import Home from './components/pages/Home';
 import Meal from './components/pages/Meal';
+import NotFound from './components/pages/NotFound';
 // redux
 import store from './store';
 import { Provider } from 'react-redux';
@@ -28,6 +29,7 @@ const App = props => {
 								{...props}
 								component={Meal}
 							/>
+							<Route component={NotFound} />
 						</Switch>
 					</div>
 				</Fragment>
